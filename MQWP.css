@@ -1,0 +1,104 @@
+ /* Header Styles */
+ .navbar {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 10px 22px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    float: right;
+    padding: 12px 75px;
+    color: white;
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.navbar li a:hover {
+    background-color: red;
+}
+
+/* Header Section Styles */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#header img {
+    width: 100%;
+}
+
+/* Content Section Styles */
+#container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.mydiv p:hover {
+    border: 5px solid seagreen;
+    border-radius: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.myclass img:hover {
+    border: 5px solid salmon;
+}
+
+#main-content {
+    float: right;
+    width: 70%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Footer Styles */
+#footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 200px;
+    overflow: hidden;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    #container {
+        width: 90%;
+        
+    }
+
+    #main-content {
+        float: none;
+        width: 90%;
+        
+        
+    }
+}
+

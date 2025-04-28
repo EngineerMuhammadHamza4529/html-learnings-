@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* Header Styles */
+        .navbar {
+            background-color: black;
+            border-radius: 20px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 10px 22px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .search {
+            float: right;
+            padding: 12px 75px;
+            color: white;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .navbar li a:hover {
+            background-color: red;
+        }
+
+        /* Header Section Styles */
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border: 5px solid black;
+        }
+
+        #header img {
+            width: 100%;
+        }
+
+        /* Content Section Styles */
+        #container {
+            margin: 0 auto;
+            width: 80%;
+            padding: 20px;
+        }
+
+        .mydiv p:hover {
+            border: 5px solid seagreen;
+            border-radius: 20px;
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .myclass img:hover {
+            border: 5px solid salmon;
+        }
+
+        #main-content {
+            float: right;
+            width: 70%;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        /* Footer Styles */
+        #footer {
+            clear: both;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                    <input type="button" value="Search">
+                </div>
+            </ul>
+        </nav>
+
+        <!-- Header Section -->
+        <div id="header">
+            <img src="imgc.jpg" alt="Header Image">
+            <h1>Website Header</h1>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div id="container">
+        <div class="mydiv">
+            <p>
+                <!-- Your content paragraphs go here -->
+            </p>
+            <p>
+                <!-- Additional content paragraphs go here -->
+            </p>
+            <div class="myclass">
+                <img src="imgg.jpg" alt="Image" width="100%">
+            </div>
+        </div>
+        <div id="main-content">
+            <!-- Content goes here -->
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer">
+        <p>&copy; 2023 Your Website Name</p>
+    </div>
+</body>
+</html>

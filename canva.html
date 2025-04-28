@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+
+<body>
+  
+
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+        </canvas>
+        <br>
+        <br>
+
+        <script>
+            // var canvas = document.getElementById("test-canvas");
+            // var context = canvas.getContext('2d');
+            // context.moveTo(20, 20);
+            // context.lineTo(280, 180);
+            // context.stroke();
+            var canvas = document.getElementById("test-canvas");
+var context = canvas.getContext('2d');
+context.fillStyle = "red";
+context.arc(100, 100, 50, 0, 2*Math.PI);
+context.fill();
+
+
+
+
+        </script>
+       
+        <br>
+        <br>
+        <br>
+
+        <canvas id="test-canvas" width="300" height="200" style="border:2px solid black;"></canvas>
+
+
+        
+</body>
+</html>
+
