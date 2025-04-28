@@ -17,7 +17,6 @@ Here, I practice and improve my HTML skills by creating simple webpages and expe
 
 ✅ Forms and Input Elements
 
-✅ Semantic HTML Elements (like <section>, <article>, <nav>, etc.)
 
 ** Purpose of This Repository**
  
