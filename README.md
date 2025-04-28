@@ -11,7 +11,7 @@ Here, I practice and improve my HTML skills by creating simple webpages and expe
 
 ✅ Links, Images, and Videos
 
-✅ Lists (<ul>, <ol>, <li>)
+✅ Lists 
 
 ✅ Tables
 
